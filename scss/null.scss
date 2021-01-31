@@ -1,0 +1,105 @@
+@import "./colors.scss";
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+img {
+  display: block;
+  max-width: 100%;
+  margin: auto;
+}
+body {
+  width: 100%;
+  margin: auto;
+  background: #fafafa;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+h1,
+h2,
+h3 {
+  font-family: "montserrat", "arial", sans-serif;
+  font-weight: 500;
+  font-size: 1.7rem;
+  color: $whitegray;
+  padding: 2rem 0 2rem;
+  text-align: center;
+}
+ul,
+ol,
+li,
+p,
+a,
+span {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: 400;
+  color: $darkgray;
+  text-decoration: none;
+  padding: 1.5rem 0rem;
+  font-size: 1.3rem;
+}
+p {
+  line-height: 2rem;
+}
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+}
+li {
+  padding: 0.6rem;
+}
+a {
+  font-weight: 500;
+
+  &:hover {
+    color: #000;
+  }
+  &:visited,
+  &:hover,
+  &:active,
+  &:focus {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+}
+menu {
+  padding: 0;
+  display: contents;
+  list-style: none;
+}
+button {
+  cursor: pointer;
+  outline: none;
+}
+.hidden {
+  display: none;
+}
+
+header {
+  margin-top: 2rem;
+}
+
+// MAIN STYLES
+
+.wrapper {
+  padding: 0 3%;
+  position: relative;
+}
+
+.content {
+  margin-bottom: 2rem;
+  background: $white;
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.08);
+  p {
+    padding: 1.5rem;
+  }
+  h1,
+  h2,
+  h3 {
+    padding: 2rem 1rem 2rem;
+  }
+}

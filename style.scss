@@ -1,0 +1,148 @@
+// NULL CSS
+@import "./scss/null.scss";
+// COLORS
+@import "./scss/colors.scss";
+
+.fade-block {
+  animation: showBlock 0.5s linear forwards;
+}
+
+.error {
+  border: 1px solid red !important;
+  position: relative;
+  &::after {
+    content: "!";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: red;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+  }
+}
+
+@keyframes showBlock {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.todo__card__wrapper {
+  display: flex;
+}
+
+.todo__card__content {
+  width: 25%;
+  padding: 1rem;
+  display: flex;
+}
+
+.todo__card__progress_items,
+.todo__card__deleted_items {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  overflow-x: scroll;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.todo__card__progress_card,
+.todo__card__deleted_card {
+  display: block;
+  background: #fff;
+  width: 100%;
+  min-width: 100%;
+  border-radius: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.todo__card__progress,
+.todo__card__deleted {
+  position: relative;
+  width: 100%;
+  padding: 1rem;
+  background: #d0d0d0;
+  border-radius: 1.5rem;
+  h2 {
+    color: $white;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+}
+.todo__card__progress_count {
+  position: absolute;
+  top: 5%;
+  right: 15%;
+  background: red;
+  padding: 6px 11px;
+  border-radius: 50%;
+  color: #fff;
+  width: 3rem;
+  height: 3rem;
+}
+
+.todo__card__add {
+  padding: 1rem;
+  background: $whitegray;
+  border-radius: 1.5rem;
+  h2 {
+    color: $white;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  form {
+    margin-bottom: 2rem;
+  }
+}
+
+input.todo__card__input {
+  width: 100%;
+  outline: none;
+  padding: 1rem;
+  font-family: Montserrat;
+  border-radius: 0.5rem;
+  border: 1px solid $lightgray;
+  margin-bottom: 0.5rem;
+}
+textarea.todo__card__input {
+  width: 100%;
+  outline: none;
+  padding: 1rem;
+  font-family: Montserrat;
+  border-radius: 0.5rem;
+  border: 1px solid $lightgray;
+  margin-bottom: 0.5rem;
+}
+button.todo__card__input {
+  width: 100%;
+  outline: none;
+  padding: 1rem;
+  font-family: Montserrat;
+  border-radius: 0.5rem;
+  border: 1px solid $lightgray;
+  background: $darkgray;
+  margin-bottom: 0.5rem;
+  color: $white;
+}
+
+.todo__card__buttons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+button.todo__card_btn {
+  display: block;
+  padding: 0.8rem;
+  font-size: 1.8rem;
+  border: none;
+  color: #2c303a;
+  background-color: transparent;
+}

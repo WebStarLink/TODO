@@ -1,0 +1,93 @@
+.bg_darkgray {
+  background: #1f1f1f;
+}
+
+.bg_lightgray {
+  background: #2c303a;
+}
+
+.bg_black {
+  background: #000;
+}
+
+.bg_orange {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(35%, #ff4300), color-stop(80%, #ff7e00));
+  background: linear-gradient(180deg, #ff4300 35%, #ff7e00 80%);
+}
+
+.bg_blue {
+  background: -webkit-gradient(linear, left top, left bottom, from(#62a0fd), to(#4992ff));
+  background: linear-gradient(180deg, #62a0fd 0%, #4992ff 100%);
+}
+
+.bg_purple {
+  background: -webkit-gradient(linear, left top, left bottom, from(#753cff), to(#d923ff));
+  background: linear-gradient(180deg, #753cff 0%, #d923ff 100%);
+}
+
+.bg_green {
+  background: -webkit-gradient(linear, left top, left bottom, from(#00a546), color-stop(52%, #f2cd56));
+  background: linear-gradient(180deg, #00a546 0%, #f2cd56 52%);
+}
+
+.bg_instagram {
+  background: -webkit-gradient(linear, left top, left bottom, from(#962fbf), to(#fa7e1e));
+  background: linear-gradient(180deg, #962fbf 0%, #fa7e1e 100%);
+}
+
+.starpurple {
+  color: #9f8198;
+}
+
+.starbrown {
+  color: #de7300;
+}
+
+.starblue {
+  color: #7a99ad;
+}
+
+.starwhite {
+  color: #fff;
+}
+
+.staryellow {
+  color: #e1ca72;
+}
+
+.stargreen {
+  color: #74b087;
+}
+
+.btn__primary {
+  width: 100%;
+  background: #fff;
+  margin-bottom: 0.5rem;
+  color: #2c303a;
+  display: block;
+  text-align: center;
+  font-size: 1.5rem;
+  border-radius: 1.5rem;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+}
+
+.btn__primary:hover {
+  background: #d0d0d0;
+}
+
+button.btn__close {
+  font-family: "Montserrat";
+  display: block;
+  margin: auto;
+  padding: 0.8rem;
+  font-size: 1.1rem;
+  border: none;
+  color: #2c303a;
+  background-color: transparent;
+}
+
+.divider {
+  border-bottom: 1px solid #d0d0d0;
+}
+/*# sourceMappingURL=colors.css.map */

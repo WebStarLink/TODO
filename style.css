@@ -1,0 +1,479 @@
+.bg_darkgray {
+  background: #1f1f1f;
+}
+
+.bg_lightgray {
+  background: #2c303a;
+}
+
+.bg_black {
+  background: #000;
+}
+
+.bg_orange {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(35%, #ff4300), color-stop(80%, #ff7e00));
+  background: linear-gradient(180deg, #ff4300 35%, #ff7e00 80%);
+}
+
+.bg_blue {
+  background: -webkit-gradient(linear, left top, left bottom, from(#62a0fd), to(#4992ff));
+  background: linear-gradient(180deg, #62a0fd 0%, #4992ff 100%);
+}
+
+.bg_purple {
+  background: -webkit-gradient(linear, left top, left bottom, from(#753cff), to(#d923ff));
+  background: linear-gradient(180deg, #753cff 0%, #d923ff 100%);
+}
+
+.bg_green {
+  background: -webkit-gradient(linear, left top, left bottom, from(#00a546), color-stop(52%, #f2cd56));
+  background: linear-gradient(180deg, #00a546 0%, #f2cd56 52%);
+}
+
+.bg_instagram {
+  background: -webkit-gradient(linear, left top, left bottom, from(#962fbf), to(#fa7e1e));
+  background: linear-gradient(180deg, #962fbf 0%, #fa7e1e 100%);
+}
+
+.starpurple {
+  color: #9f8198;
+}
+
+.starbrown {
+  color: #de7300;
+}
+
+.starblue {
+  color: #7a99ad;
+}
+
+.starwhite {
+  color: #fff;
+}
+
+.staryellow {
+  color: #e1ca72;
+}
+
+.stargreen {
+  color: #74b087;
+}
+
+.btn__primary {
+  width: 100%;
+  background: #fff;
+  margin-bottom: 0.5rem;
+  color: #2c303a;
+  display: block;
+  text-align: center;
+  font-size: 1.5rem;
+  border-radius: 1.5rem;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+}
+
+.btn__primary:hover {
+  background: #d0d0d0;
+}
+
+button.btn__close {
+  font-family: "Montserrat";
+  display: block;
+  margin: auto;
+  padding: 0.8rem;
+  font-size: 1.1rem;
+  border: none;
+  color: #2c303a;
+  background-color: transparent;
+}
+
+.divider {
+  border-bottom: 1px solid #d0d0d0;
+}
+
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: auto;
+}
+
+body {
+  width: 100%;
+  margin: auto;
+  background: #fafafa;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "montserrat", "arial", sans-serif;
+  font-weight: 500;
+  font-size: 1.7rem;
+  color: #d0d0d0;
+  padding: 2rem 0 2rem;
+  text-align: center;
+}
+
+ul,
+ol,
+li,
+p,
+a,
+span {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: 400;
+  color: #1f1f1f;
+  text-decoration: none;
+  padding: 1.5rem 0rem;
+  font-size: 1.3rem;
+}
+
+p {
+  line-height: 2rem;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+}
+
+li {
+  padding: 0.6rem;
+}
+
+a {
+  font-weight: 500;
+}
+
+a:hover {
+  color: #000;
+}
+
+a:visited, a:hover, a:active, a:focus {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+menu {
+  padding: 0;
+  display: contents;
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+}
+
+.hidden {
+  display: none;
+}
+
+header {
+  margin-top: 2rem;
+}
+
+.wrapper {
+  padding: 0 3%;
+  position: relative;
+}
+
+.content {
+  margin-bottom: 2rem;
+  background: #fff;
+  border-radius: 1.5rem;
+  -webkit-box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.08);
+          box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.08);
+}
+
+.content p {
+  padding: 1.5rem;
+}
+
+.content h1,
+.content h2,
+.content h3 {
+  padding: 2rem 1rem 2rem;
+}
+
+.bg_darkgray {
+  background: #1f1f1f;
+}
+
+.bg_lightgray {
+  background: #2c303a;
+}
+
+.bg_black {
+  background: #000;
+}
+
+.bg_orange {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(35%, #ff4300), color-stop(80%, #ff7e00));
+  background: linear-gradient(180deg, #ff4300 35%, #ff7e00 80%);
+}
+
+.bg_blue {
+  background: -webkit-gradient(linear, left top, left bottom, from(#62a0fd), to(#4992ff));
+  background: linear-gradient(180deg, #62a0fd 0%, #4992ff 100%);
+}
+
+.bg_purple {
+  background: -webkit-gradient(linear, left top, left bottom, from(#753cff), to(#d923ff));
+  background: linear-gradient(180deg, #753cff 0%, #d923ff 100%);
+}
+
+.bg_green {
+  background: -webkit-gradient(linear, left top, left bottom, from(#00a546), color-stop(52%, #f2cd56));
+  background: linear-gradient(180deg, #00a546 0%, #f2cd56 52%);
+}
+
+.bg_instagram {
+  background: -webkit-gradient(linear, left top, left bottom, from(#962fbf), to(#fa7e1e));
+  background: linear-gradient(180deg, #962fbf 0%, #fa7e1e 100%);
+}
+
+.starpurple {
+  color: #9f8198;
+}
+
+.starbrown {
+  color: #de7300;
+}
+
+.starblue {
+  color: #7a99ad;
+}
+
+.starwhite {
+  color: #fff;
+}
+
+.staryellow {
+  color: #e1ca72;
+}
+
+.stargreen {
+  color: #74b087;
+}
+
+.btn__primary {
+  width: 100%;
+  background: #fff;
+  margin-bottom: 0.5rem;
+  color: #2c303a;
+  display: block;
+  text-align: center;
+  font-size: 1.5rem;
+  border-radius: 1.5rem;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+}
+
+.btn__primary:hover {
+  background: #d0d0d0;
+}
+
+button.btn__close {
+  font-family: "Montserrat";
+  display: block;
+  margin: auto;
+  padding: 0.8rem;
+  font-size: 1.1rem;
+  border: none;
+  color: #2c303a;
+  background-color: transparent;
+}
+
+.divider {
+  border-bottom: 1px solid #d0d0d0;
+}
+
+.fade-block {
+  -webkit-animation: showBlock 0.5s linear forwards;
+          animation: showBlock 0.5s linear forwards;
+}
+
+.error {
+  border: 1px solid red !important;
+  position: relative;
+}
+
+.error::after {
+  content: "!";
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: red;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}
+
+@-webkit-keyframes showBlock {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes showBlock {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.todo__card__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.todo__card__content {
+  width: 25%;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.todo__card__progress_items,
+.todo__card__deleted_items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+
+.todo__card__progress_items::-webkit-scrollbar,
+.todo__card__deleted_items::-webkit-scrollbar {
+  display: none;
+}
+
+.todo__card__progress_card,
+.todo__card__deleted_card {
+  display: block;
+  background: #fff;
+  width: 100%;
+  min-width: 100%;
+  border-radius: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.todo__card__progress,
+.todo__card__deleted {
+  position: relative;
+  width: 100%;
+  padding: 1rem;
+  background: #d0d0d0;
+  border-radius: 1.5rem;
+}
+
+.todo__card__progress h2,
+.todo__card__deleted h2 {
+  color: #fff;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.todo__card__progress_count {
+  position: absolute;
+  top: 5%;
+  right: 15%;
+  background: red;
+  padding: 6px 11px;
+  border-radius: 50%;
+  color: #fff;
+  width: 3rem;
+  height: 3rem;
+}
+
+.todo__card__add {
+  padding: 1rem;
+  background: #d0d0d0;
+  border-radius: 1.5rem;
+}
+
+.todo__card__add h2 {
+  color: #fff;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.todo__card__add form {
+  margin-bottom: 2rem;
+}
+
+input.todo__card__input {
+  width: 100%;
+  outline: none;
+  padding: 1rem;
+  font-family: Montserrat;
+  border-radius: 0.5rem;
+  border: 1px solid #2c303a;
+  margin-bottom: 0.5rem;
+}
+
+textarea.todo__card__input {
+  width: 100%;
+  outline: none;
+  padding: 1rem;
+  font-family: Montserrat;
+  border-radius: 0.5rem;
+  border: 1px solid #2c303a;
+  margin-bottom: 0.5rem;
+}
+
+button.todo__card__input {
+  width: 100%;
+  outline: none;
+  padding: 1rem;
+  font-family: Montserrat;
+  border-radius: 0.5rem;
+  border: 1px solid #2c303a;
+  background: #1f1f1f;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+.todo__card__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 1rem;
+}
+
+button.todo__card_btn {
+  display: block;
+  padding: 0.8rem;
+  font-size: 1.8rem;
+  border: none;
+  color: #2c303a;
+  background-color: transparent;
+}
+/*# sourceMappingURL=style.css.map */

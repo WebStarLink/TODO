@@ -1,0 +1,94 @@
+$darkgray: #1f1f1f;
+$lightgray: #2c303a;
+$wlightgray: #ececec;
+$whitegray: #d0d0d0;
+$black: #000;
+$purple: #9f8198;
+$brown: #de7300;
+$blue: #7a99ad;
+$white: #fff;
+$yellow: #e1ca72;
+$green: #74b087;
+$gorange: linear-gradient(180deg, #ff4300 35%, #ff7e00 80%);
+$gblue: linear-gradient(180deg, #62a0fd 0%, #4992ff 100%);
+$gpurple: linear-gradient(180deg, #753cff 0%, #d923ff 100%);
+$ggreen: linear-gradient(180deg, #00a546 0%, #f2cd56 52%);
+$ginstagram: linear-gradient(180deg, #962fbf 0%, #fa7e1e 100%);
+
+.bg_darkgray {
+  background: $darkgray;
+}
+
+.bg_lightgray {
+  background: $lightgray;
+}
+
+.bg_black {
+  background: $black;
+}
+
+.bg_orange {
+  background: $gorange;
+}
+
+.bg_blue {
+  background: $gblue;
+}
+.bg_purple {
+  background: $gpurple;
+}
+.bg_green {
+  background: $ggreen;
+}
+.bg_instagram {
+  background: $ginstagram;
+}
+
+.starpurple {
+  color: $purple;
+}
+.starbrown {
+  color: $brown;
+}
+.starblue {
+  color: $blue;
+}
+.starwhite {
+  color: $white;
+}
+.staryellow {
+  color: $yellow;
+}
+.stargreen {
+  color: $green;
+}
+
+.btn__primary {
+  width: 100%;
+  background: #fff;
+  margin-bottom: 0.5rem;
+  color: $lightgray;
+  display: block;
+  text-align: center;
+  font-size: 1.5rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+  &:hover {
+    background: $whitegray;
+  }
+}
+
+button.btn__close {
+  font-family: "Montserrat";
+  display: block;
+  margin: auto;
+  padding: 0.8rem;
+  font-size: 1.1rem;
+  border: none;
+  color: $lightgray;
+  background-color: transparent;
+}
+
+.divider {
+  border-bottom: 1px solid $whitegray;
+}
