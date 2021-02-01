@@ -353,8 +353,13 @@ button.btn__close {
   display: flex;
 }
 
+.todo__card__edit__content {
+  padding: 1rem;
+}
+
 .todo__card__progress_items,
-.todo__card__deleted_items {
+.todo__card__deleted_items,
+.todo__card__complited_items {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -365,12 +370,14 @@ button.btn__close {
 }
 
 .todo__card__progress_items::-webkit-scrollbar,
-.todo__card__deleted_items::-webkit-scrollbar {
+.todo__card__deleted_items::-webkit-scrollbar,
+.todo__card__complited_items::-webkit-scrollbar {
   display: none;
 }
 
 .todo__card__progress_card,
-.todo__card__deleted_card {
+.todo__card__deleted_card,
+.todo__card__complited_card {
   display: block;
   background: #fff;
   width: 100%;
@@ -380,7 +387,8 @@ button.btn__close {
 }
 
 .todo__card__progress,
-.todo__card__deleted {
+.todo__card__deleted,
+.todo__card__complited {
   position: relative;
   width: 100%;
   padding: 1rem;
@@ -389,7 +397,8 @@ button.btn__close {
 }
 
 .todo__card__progress h2,
-.todo__card__deleted h2 {
+.todo__card__deleted h2,
+.todo__card__complited h2 {
   color: #fff;
   padding: 0.5rem;
   margin-bottom: 1rem;
@@ -397,7 +406,7 @@ button.btn__close {
 
 .todo__card__progress_count {
   position: absolute;
-  top: 5%;
+  top: 2%;
   right: 15%;
   background: red;
   padding: 6px 11px;
@@ -407,19 +416,34 @@ button.btn__close {
   height: 3rem;
 }
 
-.todo__card__add {
+.todo__card__complited_count {
+  position: absolute;
+  top: 5%;
+  right: 15%;
+  background: green;
+  padding: 6px 11px;
+  border-radius: 50%;
+  color: #fff;
+  width: 3rem;
+  height: 3rem;
+}
+
+.todo__card__add,
+.todo__card__edit {
   padding: 1rem;
   background: #d0d0d0;
   border-radius: 1.5rem;
 }
 
-.todo__card__add h2 {
+.todo__card__add h2,
+.todo__card__edit h2 {
   color: #fff;
   padding: 0.5rem;
   margin-bottom: 1rem;
 }
 
-.todo__card__add form {
+.todo__card__add form,
+.todo__card__edit form {
   margin-bottom: 2rem;
 }
 

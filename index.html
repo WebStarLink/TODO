@@ -54,12 +54,48 @@
             </div>
           </div>
           <div class="todo__card__content">
+            <div class="todo__card__complited">
+              <h2>Complited</h2>
+              <span class="todo__card__complited_count"></span>
+              <div class="todo__card__complited_items"></div>
+            </div>
+          </div>
+          <div class="todo__card__content">
             <div class="todo__card__deleted">
               <h2>Deleted</h2>
               <div class="todo__card__deleted_items"></div>
             </div>
           </div>
         </div>
+        <!-- EDIT -->
+
+        <div class="todo__card__edit__content hidden fade-block">
+          <div class="todo__card__edit">
+            <h2>Edit Task</h2>
+            <form id="edit-task">
+              <input
+                class="todo__card__input"
+                type="text"
+                id="edit-title"
+                placeholder="Edit title"
+              />
+              <textarea
+                class="todo__card__input"
+                id="edit-description"
+                placeholder="Edit description"
+              ></textarea>
+              <button
+                class="todo__card__input"
+                id="task-edit-button"
+                type="button"
+              >
+                Save your task
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <!-- EDIT -->
       </div>
     </div>
     <script src="./script.js"></script>
